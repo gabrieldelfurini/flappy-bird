@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Pixel';
-    src: url(/assets/Pixel.ttf)
+    src: url(/assets/Pixel.ttf);
 }
 
 html {
