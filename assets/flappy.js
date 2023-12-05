@@ -41,7 +41,7 @@ function ParDeBarreiras(altura, abertura, x){
 }
 
 // const b = new ParDeBarreiras(700, 200, 500)
-// document.querySelector('[wm-flappy]').appendChild(b.elemento)
+// document.querySelector('[wm-flappy]').appendChild(b.elemento)  
 
 function Barreiras(altura, largura, abertura, espaco, notificaPonto){
     this.pares = [
@@ -66,7 +66,6 @@ function Barreiras(altura, largura, abertura, espaco, notificaPonto){
             const cruzouOMeio = par.getX() + deslocamento >= meio && par.getX() < meio
 
             if(cruzouOMeio) notificaPonto()
-
         })
     }
 }
