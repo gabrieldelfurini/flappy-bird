@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Pixel';
-    src: url("assets/Pixel.ttf");
+    src: url(/assets/Pixel.ttf)
 }
 
 html {
@@ -26,7 +26,7 @@ body {
 }
 
 h1{
-    font-family: Pixel;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 100px;
 }
 
